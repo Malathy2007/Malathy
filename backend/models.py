@@ -1,0 +1,7 @@
+from pydantic import BaseModel
+
+class DocumentRequest(BaseModel):
+    document_type: str
+    parties: str
+    terms: str
+    date: str
